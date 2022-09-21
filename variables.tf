@@ -1,4 +1,8 @@
 variable "filename" {
     default = "/home/rhyme/test.txt"
-    typpe = string
+    type = string
+}
+
+variable "content" {
+    type = string
 }
