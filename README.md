@@ -19,3 +19,7 @@ $ sudo apt update && sudo apt install terraform
 ### flow
 
 `terraform init` > `terraform plan` > `terraform apply`
+
+### state management
+
+`terraform state list`
