@@ -1,8 +1,4 @@
-variable "filename" {
-    default = "/home/rhyme/test.txt"
-    type = string
-}
-
-variable "content" {
-    type = string
+variable "network_interface_id" {
+    type    = string
+    default = "network_id_from_aws"
 }
