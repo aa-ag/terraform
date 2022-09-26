@@ -6,6 +6,12 @@ variable "network_interface_id" {
 
 variable "ami" {
     description = "example description 456"
-    type    = string
-    default = var.default_ami
+    type        = string
+    default     = var.default_ami
+}
+
+variable "instance_type" {
+    description = "example description 789"
+    type        = string
+    default     = "t2.micro"
 }
